@@ -16,7 +16,8 @@
     "url": "https://github.com/prateekranka/ritproject/issues"
   },
   "homepage": "https://github.com/prateekranka/ritproject#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "express": "^4.16.4"
   }
 }
