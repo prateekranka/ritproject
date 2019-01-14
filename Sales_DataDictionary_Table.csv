@@ -1,0 +1,159 @@
+﻿Description,OutputCol,Required,INPUT
+Deal identifier,Deal_ID,Mandatory,INPUT
+Date that a vehicle is recorded as sold (can include date & time),Date_Sold,Mandatory,INPUT
+Date that accounting closes the deal (can include date & time),Date_Finalized,Used,INPUT
+Date that the car was booked,Date_Booked,Used,INPUT
+Date that the car was delivered,Date_Delivered,Used,INPUT
+"Date that sale was intialized, deal is currently pending",Date_Initialized,Used,INPUT
+Date that the vehicle entered inventory,Entry_Date,Used,INPUT
+"Booked, Finalized, and Unwound status",Deal_Status,Used,INPUT
+First date the deal was recorded,First_Date,Used,INPUT
+Initial status of the deal,First_Status,Used,INPUT
+"Cash, Finance, or Lease",Payment_Type,Used,INPUT
+Dealership sale amount on the total deal,Total_Sale,Used,INPUT
+Dealership gross profit on the vehicle sale deal,Total_Gross_Profit,Used,INPUT
+Cash payment made by the customer,Cash_Down_Amount,Used,INPUT
+Front End Gross Profit,Front_End_Gross_Profit,Used,INPUT
+Back End Gross Profit,Back_End_Gross_Profit,Used,INPUT
+Vehicle Make,Vehicle_Make,Used,INPUT
+Vehicle Model,Vehicle_Model,Used,INPUT
+Vehicle Year,Vehicle_Year,Used,INPUT
+Vehicle VIN,Vehicle_VIN,Used,INPUT
+"Vehicle Type (New, Certified Pre-owned, Pre-owned)",Vehicle_Type,Used,INPUT
+"Inventory Type (New, Used, Demo)",Inventory_Type,Used,INPUT
+Vehicle Stock Number,Vehicle_Stock_Number,Used,INPUT
+Vehicle Days-in-stock,Days_In_Stock,Used,INPUT
+"Cost of the Vehicle (fully loaded with flooring, preparation, preloaded accessories, incentives, rebates, etc.)",Cost_Of_The_Vehicle,Used,INPUT
+,Vehicle_Pack,Used,INPUT
+Selling Price of the Vehicle (vehicle price set after negotiation),Selling_Price_Of_The_Vehicle,Used,INPUT
+Vehicle Gross Profit,Vehicle_Gross_Profit,Used,INPUT
+Dealer incentive,Dealer_Incentive_1,Used,INPUT
+Dealer incentive,Dealer_Incentive_2,Used,INPUT
+Dealer incentive,Dealer_Incentive_3,Used,INPUT
+Dealer incentive,Dealer_Incentive_4,Used,INPUT
+Dealer incentive,Dealer_Incentive_5,Used,INPUT
+Dealer Rebate,Dealer_Rebate_1,Used,INPUT
+Dealer Rebate,Dealer_Rebate_2,Used,INPUT
+Dealer Rebate,Dealer_Rebate_3,Used,INPUT
+Vehicle Exterior Color,Exterior_Color,Used,INPUT
+Details about Vehicle Trim,Trim Level,Used,INPUT
+Unique identifier of the Customer (person or business),Customer_ID,Used,INPUT
+"Personal (Retail, Individual), Business (Commercial), Business Preferred, Fleet, Dealer Trade, Wholesale, In-House",Customer_Type,Used,INPUT
+"Buyer Name (Salutation, First, Middle, Last)",Buyer_Name,Used,INPUT
+Buyer Gender,Buyer_Gender,Used,INPUT
+Buyer ZIP or Postcode,Buyer_ZIP_or_Postcode,Used,INPUT
+Buyer Email Address,Buyer_Email_Address,Used,INPUT
+Buyer Birthday,Buyer_Birthday,Used,INPUT
+Co-Buyer Name,Co_Buyer_Name,Used,INPUT
+Co-Buyer Gender,Co_Buyer_Gender,Used,INPUT
+Co-Buyer Birthday,Co_Buyer_Birthday,Used,INPUT
+Sales Manager 1,Sales_Manager_1,Used,INPUT
+Sales Manager 1 ID,Sales_Manager_1_ID,Used,INPUT
+Salesperson 1,Salesperson_1,Used,INPUT
+Salesperson 2,Salesperson_2,Used,INPUT
+Salesperson 1 ID number,Salesperson_1_ID,Used,INPUT
+Salesperson 2 ID number,Salesperson_2_ID,Used,INPUT
+F&I Manager 1,F&I_Manager_1,Used,INPUT
+F&I Manager 1 ID,F&I_Manager_1_ID,Used,INPUT
+Internet Manager,Internet_Manager,Used,INPUT
+Team Manager,Team_Manager,Used,INPUT
+Desk Manager,Desk_Manager,Used,INPUT
+Total Back End Commission,Total_Back_End_Commission,Used,INPUT
+Total Front End Commission,Total_Front_End_Commission,Used,INPUT
+Salesperson 1 Backend Commission,Salesperson_1_Back_End_Commission,Used,INPUT
+Salesperson 2 Backend Commission,Salesperson_2_Back_End_Commission,Used,INPUT
+F&I Manager Back End Commission,F&I_Manager_Back_End_Commission,Used,INPUT
+Salesperson 1 Backend Commission,Salesperson_1_Front_End_Commission,Used,INPUT
+Salesperson 2 Backend Commission,Salesperson_2_Front_End_Commission,Used,INPUT
+F&I Manager Back End Commission,F&I_Manager_Front_End_Commission,Used,INPUT
+Sales Manager Front End Commission,Sales_Manager_Front_End_Commission,Used,INPUT
+Sales Manager Back End Commission,Sales_Manager_Back_End_Commission,Used,INPUT
+Deal Manager Commission,Desk_Manager_Commission,Used,INPUT
+Internet Manager Commission,Internet_Manager_Commission,Used,INPUT
+Team Manager Commission,Team_Manager_Commission,Used,INPUT
+Full make name of Trade-In 1,Trade_In_1_Make,Used,INPUT
+Model name for Trade-In 1,Trade_In_1_Model,Used,INPUT
+Vehicle model year of Trade-In 1,Trade_In_1_Vehicle_Year,Used,INPUT
+VIN of Trade-In 1,Trade_In_1_VIN,Used,INPUT
+Value of Trade-In 1 (valuation of the vehicle in the deal),Trade_In_1_Agreed_Value,Used,INPUT
+Gross Profit made on Trade-In 1,Trade_In_1_Net_Value,Used,INPUT
+Actual cash value (ACV) of Trade-In 1,Trade_In_1_ACV,Used,INPUT
+Payoff of Trade-In 1,Trade_In_1_Payoff,Used,INPUT
+Overallowance of Trade-In 1,Trade_In_1_Overallowance,Used,INPUT
+Full make name of Trade-In 2,Trade_In_2_Make,Used,INPUT
+Model name for Trade-In 2,Trade_In_2_Model,Used,INPUT
+Vehicle model year of Trade-In 2,Trade_In_2_Vehicle_Year,Used,INPUT
+VIN of Trade-In 2,Trade_In_2_VIN,Used,INPUT
+Value of Trade-In 2 (valuation of the vehicle in the deal),Trade_In_2_Agreed_Value,Used,INPUT
+Gross Profit made on Trade-In 2,Trade_In_2_Net_Value,Used,INPUT
+Actual cash value (ACV) of Trade-In 2,Trade_In_2_ACV,Used,INPUT
+Payoff of Trade-In 2,Trade_In_2_Payoff,Used,INPUT
+Overallowance of Trade-In 2,Trade_In_2_Overallowance,Used,INPUT
+Full make name of Trade-In 3,Trade_In_3_Make,Used,INPUT
+Model name for Trade-In 3,Trade_In_3_Model,Used,INPUT
+Vehicle model year of Trade-In 3,Trade_In_3_Vehicle_Year,Used,INPUT
+VIN of Trade-In 3,Trade_In_3_VIN,Used,INPUT
+Value of Trade-In 3 (valuation of the vehicle in the deal),Trade_In_3_Agreed_Value,Used,INPUT
+Gross Profit made on Trade-In 3,Trade_In_3_Net_Value,Used,INPUT
+Actual cash value (ACV) of Trade-In 3,Trade_In_3_ACV,Used,INPUT
+Payoff of Trade-In 3,Trade_In_3_Payoff,Used,INPUT
+Overallowance of Trade-In 3,Trade_In_3_Overallowance,Used,INPUT
+Finance Type,Cash_Finance_Lease,Used,INPUT
+Financial Institution Name,Finance_Provider,Used,INPUT
+Financial Institution Code,Finance_Provider_Id,Used,INPUT
+"Finance amount (amount of loan, used to calculate loan/vehicle-value ratio)",Finance_Amount,Used,INPUT
+"Interest rate to be paid by the customer, used to tag prime & sub-prime loans",APR_for_the_Customer,Used,INPUT
+Finance Reserve,Finance_Profit,Used,INPUT
+External finance amount,External_Finance_Amount,Used,INPUT
+Warranty (ESC) name or service plan/contract name,Warranty_ESC_1_Name,Used,INPUT
+Sale (Premium) value of Warranty or Extended Service Contract (ESC),Warranty_ESC_1_Revenue,Used,INPUT
+Cost of Warranty or Extended Service Contract,Warranty_ESC_1_Cost,Used,INPUT
+Gross profit of Warranty or Extended Service Contract (ESC),Warranty_ESC_1_Gross_Profit,Used,INPUT
+Warranty (ESC) name or service plan/contract name,Warranty_ESC_2_Name,Used,INPUT
+Sale (Premium) value of Warranty or Extended Service Contract (ESC),Warranty_ESC_2_Revenue,Used,INPUT
+Cost of Warranty or Extended Service Contract,Warranty_ESC_2_Cost,Used,INPUT
+Gross profit of Warranty or Extended Service Contract (ESC),Warranty_ESC_2_Gross_Profit,Used,INPUT
+Warranty (ESC) name or service plan/contract name,Warranty_ESC_3_Name,Used,INPUT
+Sale (Premium) value of Warranty or Extended Service Contract (ESC),Warranty_ESC_3_Revenue,Used,INPUT
+Cost of Warranty or Extended Service Contract,Warranty_ESC_3_Cost,Used,INPUT
+Gross profit of Warranty or Extended Service Contract (ESC),Warranty_ESC_3_Gross_Profit,Used,INPUT
+Warranty (ESC) name or service plan/contract name,Warranty_ESC_4_Name,Used,INPUT
+Sale (Premium) value of Warranty or Extended Service Contract (ESC),Warranty_ESC_4_Revenue,Used,INPUT
+Cost of Warranty or Extended Service Contract,Warranty_ESC_4_Cost,Used,INPUT
+Gross profit of Warranty or Extended Service Contract (ESC),Warranty_ESC_4_Gross_Profit,Used,INPUT
+"Insurance Plan Name, e.g., Gap Coverage",Insurance_1_Name,Used,INPUT
+Insurance Revenue Amount,Insurance_1_Fee,Used,INPUT
+Insurance Cost,Insurance_1_Cost,Used,INPUT
+Insurance Gross Profit,Insurance_1_Income,Used,INPUT
+"Insurance Plan Name, e.g., Anti-Theft",Insurance_2_Name,Used,INPUT
+Insurance Revenue Amount,Insurance_2_Fee,Used,INPUT
+Insurance Cost,Insurance_2_Cost,Used,INPUT
+Insurance Gross Profit,Insurance_2_Income,Used,INPUT
+"Insurance Plan Name, e.g., Anti-Theft",Insurance_3_Name,Used,INPUT
+Insurance Revenue Amount,Insurance_3_Fee,Used,INPUT
+Insurance Cost,Insurance_3_Cost,Used,INPUT
+Insurance Gross Profit,Insurance_3_Income,Used,INPUT
+"Insurance Plan Name, e.g., Anti-Theft",Insurance_4_Name,Used,INPUT
+Insurance Revenue Amount,Insurance_4_Fee,Used,INPUT
+Insurance Cost,Insurance_4_Cost,Used,INPUT
+Insurance Gross Profit,Insurance_4_Income,Used,INPUT
+Accessory Back End Profit,Accessory_Back_End_Profit,Used,INPUT
+Accessory Front End Profit,Accessory_Front_End_Profit,Used,INPUT
+"Accessory, Fee, or Option Name",Accessory_1_Name,Used,INPUT
+"Accessory, Fee, or Option Amount",Accessory_1_Amount,Used,INPUT
+"Accessory, Fee, or Option Gross Profit",Accessory_1_Gross_Profit,Used,INPUT
+"Accessory, Fee, or Option Cost",Accessory_1_Cost,Used,INPUT
+"Accessory, Fee, or Option Name",Accessory_2_Name,Used,INPUT
+"Accessory, Fee, or Option Amount",Accessory_2_Amount,Used,INPUT
+"Accessory, Fee, or Option Gross Profit",Accessory_2_Gross_Profit,Used,INPUT
+"Accessory, Fee, or Option Cost",Accessory_2_Cost,Used,INPUT
+"Accessory, Fee, or Option Name",Accessory_3_Name,Used,INPUT
+"Accessory, Fee, or Option Amount",Accessory_3_Amount,Used,INPUT
+"Accessory, Fee, or Option Gross Profit",Accessory_3_Gross_Profit,Used,INPUT
+"Accessory, Fee, or Option Cost",Accessory_3_Cost,Used,INPUT
+"Accessory, Fee, or Option Name",Accessory_4_Name,Used,INPUT
+"Accessory, Fee, or Option Amount",Accessory_4_Amount,Used,INPUT
+"Accessory, Fee, or Option Gross Profit",Accessory_4_Gross_Profit,Used,INPUT
+"Accessory, Fee, or Option Cost",Accessory_4_Cost,Used,INPUT
+Total Fees,Total_Fees,Used,INPUT
+Tax paid by Customer,Tax_Paid,Used,INPUT

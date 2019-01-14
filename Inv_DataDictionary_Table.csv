@@ -1,0 +1,17 @@
+Description,Output Column,Required,INPUT
+Date the car was received by the dealership,Receipt_Date,Mandatory,INPUT
+Date the car was sold,Sale_Date,Used,INPUT
+Date the vehicle was purchased,Purchase_Date,Used,INPUT
+Type of vehicle ,Vehicle_Type,Used,INPUT
+Whether the vehicle is to be sold as wholesale or not ,Wholesale_Status,Used,INPUT
+Vehicle Identification Number,Vehicle_VIN [Secondary Key],Used,INPUT
+Vehicle Manufacturer ,Vehicle_Make,Used,INPUT
+Vehicle Model ,Vehicle_Model,Used,INPUT
+Year the vehicle was manufactured,Vehicle_Year,Used,INPUT
+Trim of the vehicle ,Vehicle_Trimlevel,Used,INPUT
+Color of the vehicle,Vehicle_Color,Used,INPUT
+Unique identification number for a vehicle in stock,Stock_ID [Primary Key],Used,INPUT
+Value of the vehicle in Inventory,Inventory_Amount,Used,INPUT
+Cost of the vehicle for the dealer,Vehicle_Base_Cost,Used,INPUT
+Selling price of the vehicle,Vehicle_Price,Used,INPUT
+Value of flooring (Financing) available for the vehicle,Flooring_Price,Used,INPUT
